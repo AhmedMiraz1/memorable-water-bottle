@@ -35,9 +35,31 @@
 .price-container {
   display: flex;
   justify-content: space-between;
+  gap: 5px;
 }
 
 .rating-container {
   display: flex;
   justify-content: space-between;
+  gap: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .bottle {
+    padding: 13px;
+  }
+  .bottle p {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .bottle h4 {
+    padding: 10px;
+    font: size 20px;
+    font-weight: 800;
+  }
+  .bottle button {
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
